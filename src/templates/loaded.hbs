@@ -1,0 +1,6 @@
+<h1>Hello world!</h1>
+<div id="page-loading-time">Page loaded at {{loadingTime}}</div>
+@require('./count.hbs')
+{{#eq status "success"}}
+  @require('./recordsPanel.hbs')
+{{/eq}}

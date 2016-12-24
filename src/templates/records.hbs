@@ -1,0 +1,14 @@
+<div id="records-result">
+  {{#if (isObject records)}}
+    {{#eq records.status "success"}}
+      {{#each records.records}}
+        {{log createdAt}}
+        <div class="records-result-record">{{moment (toInt createdAt) 'YYYY-MM-DDTHH:mm:ss.sssZ'}}</div>
+      {{/each}}
+    {{else}}
+      <div class="fail message">Load records failed...</div>
+    {{/eq}}
+  {{else}}
+    <div class="message">...</div>
+  {{/if}}
+</div>
