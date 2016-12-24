@@ -1,0 +1,17 @@
+# git files
+.git
+.gitignore
+LICENSE
+README.md
+docker-compose.yml
+
+# Clone from .gitigrone
+
+# Logs
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build dist
+dist
