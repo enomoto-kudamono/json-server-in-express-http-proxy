@@ -5,7 +5,7 @@ LICENSE
 README.md
 docker-compose.yml
 
-# Clone from .gitigrone
+# Clone from .gitignore
 
 # Logs
 npm-debug.log*
